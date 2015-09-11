@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8651331BA2F0B8001DE233 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8651301BA2F0AD001DE233 /* SwiftHTTP.framework */; };
+		5AC937401BA2AFD500973894 /* CertifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF096AB1BA2AC0700977F71 /* CertifyViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		5AF0969D1BA2AAE600977F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0969C1BA2AAE600977F71 /* AppDelegate.swift */; };
+		5AF0969F1BA2AAE600977F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0969E1BA2AAE600977F71 /* Assets.xcassets */; };
+		5AF096A21BA2AAE600977F71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF096A01BA2AAE600977F71 /* MainMenu.xib */; };
+		5AF096AA1BA2ABCA00977F71 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF096A91BA2ABCA00977F71 /* EventMonitor.swift */; settings = {ASSET_TAGS = (); }; };
+		5AF096AE1BA2AC0700977F71 /* CertifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF096AC1BA2AC0700977F71 /* CertifyViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		5AF096B41BA2ADB100977F71 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF096B31BA2ADB100977F71 /* StringHelper.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A86512B1BA2F0AD001DE233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		5A86512D1BA2F0AD001DE233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		5A86512F1BA2F0AD001DE233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		5A8651311BA2F0AD001DE233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
+		};
+		5A8651341BA2F0BD001DE233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D958025819E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = BITWebCertify/SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = "<group>"; };
+		5AF096991BA2AAE600977F71 /* BITWebCertify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BITWebCertify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF0969C1BA2AAE600977F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AF0969E1BA2AAE600977F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF096A11BA2AAE600977F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5AF096A31BA2AAE600977F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF096A91BA2ABCA00977F71 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		5AF096AB1BA2AC0700977F71 /* CertifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertifyViewController.swift; sourceTree = "<group>"; };
+		5AF096AC1BA2AC0700977F71 /* CertifyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertifyViewController.xib; sourceTree = "<group>"; };
+		5AF096AF1BA2AD9000977F71 /* BITWebCertify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BITWebCertify-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AF096B31BA2ADB100977F71 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF096961BA2AAE600977F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8651331BA2F0B8001DE233 /* SwiftHTTP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8651251BA2F0AD001DE233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A86512C1BA2F0AD001DE233 /* SwiftHTTP.framework */,
+				5A86512E1BA2F0AD001DE233 /* SwiftHTTPTests.xctest */,
+				5A8651301BA2F0AD001DE233 /* SwiftHTTP.framework */,
+				5A8651321BA2F0AD001DE233 /* SwiftHTTPOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF096901BA2AAE600977F71 = {
+			isa = PBXGroup;
+			children = (
+				5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */,
+				5AF0969B1BA2AAE600977F71 /* BITWebCertify */,
+				5AF0969A1BA2AAE600977F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF0969A1BA2AAE600977F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF096991BA2AAE600977F71 /* BITWebCertify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF0969B1BA2AAE600977F71 /* BITWebCertify */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0969C1BA2AAE600977F71 /* AppDelegate.swift */,
+				5AF0969E1BA2AAE600977F71 /* Assets.xcassets */,
+				5AF096A01BA2AAE600977F71 /* MainMenu.xib */,
+				5AF096A31BA2AAE600977F71 /* Info.plist */,
+				5AF096A91BA2ABCA00977F71 /* EventMonitor.swift */,
+				5AF096AB1BA2AC0700977F71 /* CertifyViewController.swift */,
+				5AF096AC1BA2AC0700977F71 /* CertifyViewController.xib */,
+				5AF096AF1BA2AD9000977F71 /* BITWebCertify-Bridging-Header.h */,
+				5AF096B31BA2ADB100977F71 /* StringHelper.swift */,
+			);
+			path = BITWebCertify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF096981BA2AAE600977F71 /* BITWebCertify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF096A61BA2AAE600977F71 /* Build configuration list for PBXNativeTarget "BITWebCertify" */;
+			buildPhases = (
+				5AF096951BA2AAE600977F71 /* Sources */,
+				5AF096961BA2AAE600977F71 /* Frameworks */,
+				5AF096971BA2AAE600977F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8651351BA2F0BD001DE233 /* PBXTargetDependency */,
+			);
+			name = BITWebCertify;
+			productName = BITWebCertify;
+			productReference = 5AF096991BA2AAE600977F71 /* BITWebCertify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF096911BA2AAE600977F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BIT;
+				TargetAttributes = {
+					5AF096981BA2AAE600977F71 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5AF096941BA2AAE600977F71 /* Build configuration list for PBXProject "BITWebCertify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF096901BA2AAE600977F71;
+			productRefGroup = 5AF0969A1BA2AAE600977F71 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5A8651251BA2F0AD001DE233 /* Products */;
+					ProjectRef = 5A8651241BA2F0AD001DE233 /* SwiftHTTP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5AF096981BA2AAE600977F71 /* BITWebCertify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5A86512C1BA2F0AD001DE233 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 5A86512B1BA2F0AD001DE233 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A86512E1BA2F0AD001DE233 /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = 5A86512D1BA2F0AD001DE233 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A8651301BA2F0AD001DE233 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 5A86512F1BA2F0AD001DE233 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A8651321BA2F0AD001DE233 /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = 5A8651311BA2F0AD001DE233 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF096971BA2AAE600977F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF096AE1BA2AC0700977F71 /* CertifyViewController.xib in Resources */,
+				5AF0969F1BA2AAE600977F71 /* Assets.xcassets in Resources */,
+				5AF096A21BA2AAE600977F71 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF096951BA2AAE600977F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF096B41BA2ADB100977F71 /* StringHelper.swift in Sources */,
+				5AF0969D1BA2AAE600977F71 /* AppDelegate.swift in Sources */,
+				5AF096AA1BA2ABCA00977F71 /* EventMonitor.swift in Sources */,
+				5AC937401BA2AFD500973894 /* CertifyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A8651351BA2F0BD001DE233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHTTPOSX;
+			targetProxy = 5A8651341BA2F0BD001DE233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF096A01BA2AAE600977F71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF096A11BA2AAE600977F71 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF096A41BA2AAE600977F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AF096A51BA2AAE600977F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AF096A71BA2AAE600977F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BITWebCertify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hunter.BITWebCertify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BITWebCertify/BITWebCertify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AF096A81BA2AAE600977F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BITWebCertify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Hunter.BITWebCertify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BITWebCertify/BITWebCertify-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF096941BA2AAE600977F71 /* Build configuration list for PBXProject "BITWebCertify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF096A41BA2AAE600977F71 /* Debug */,
+				5AF096A51BA2AAE600977F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF096A61BA2AAE600977F71 /* Build configuration list for PBXNativeTarget "BITWebCertify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF096A71BA2AAE600977F71 /* Debug */,
+				5AF096A81BA2AAE600977F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF096911BA2AAE600977F71 /* Project object */;
+}
